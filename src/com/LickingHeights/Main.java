@@ -19,7 +19,10 @@ public class Main {
         System.out.println("Welcome to the BMI calculator.");
         System.out.println("We need you to answer a few questions before we can get your BMI.");
 
-       
+        System.out.println("What is your height in inches");
+        inch = keyboard.nextDouble();
+        System.out.println("What is your weight in pounds?");
+        pound = keyboard.nextDouble();
 
 
 

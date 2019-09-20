@@ -30,6 +30,14 @@ public class Main {
         System.out.print("Your BMI is ");
         System.out.print(imp*pound/(inch*inch));
 
+        System.out.println(" ");
+        System.out.println("The average adult BMI is 20-24.");
+        System.out.println("18.5-24.9");
+        System.out.println("Less than 18.5 for women is underweight");
+        System.out.println("Less than 20 for men is underweight");
+        System.out.println("25-29 is overweight");
+        System.out.println("greater than 30 is obese");
+
 
 
 

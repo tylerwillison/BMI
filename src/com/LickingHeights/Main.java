@@ -20,9 +20,17 @@ public class Main {
         System.out.println("We need you to answer a few questions before we can get your BMI.");
 
         System.out.println("What is your height in inches");
-        inch = keyboard.nextDouble();
+            inch = keyboard.nextDouble();
         System.out.println("What is your weight in pounds?");
-        pound = keyboard.nextDouble();
+            pound = keyboard.nextDouble();
+        System.out.println("BMI Calculating.");
+            imp = 703;
+
+        System.out.println(" ");
+        System.out.print("Your BMI is ");
+        System.out.print(imp*pound/(inch*inch));
+
+
 
 
 

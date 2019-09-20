@@ -16,6 +16,9 @@ public class Main {
         Double pound;
         int imp;
 
+        System.out.println("Welcome to the BMI calculator.");
+        System.out.println("We need you to answer a few questions before we can get your BMI.");
+
        
 
 
